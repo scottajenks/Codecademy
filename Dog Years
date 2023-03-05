@@ -1,0 +1,16 @@
+// Create variable myAge and declare it
+let myAge = 37;
+// Create variable earlyYears and declare it
+let earlyYears = 2;
+earlyYears *= 10.5;
+/*Create varible laterYears and declare it using the variable myAge and subtracting two years*/
+let laterYears = myAge - 2;
+// Multiply laterYears by four
+laterYears *= 4;
+/*Fine my age in dog years by adding earlyYears to laterYears and creating a new variable of myAgeInDogYears*/
+let myAgeInDogYears = earlyYears + laterYears;
+// Create myName variable and make it lower case
+let myName = 'Scott'
+myName = myName.toLowerCase();
+
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
